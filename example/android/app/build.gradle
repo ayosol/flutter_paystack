@@ -13,12 +13,11 @@ if (localPropertiesFile.exists()) {
 }
 
 android {
-    compileSdk 35
+    compileSdk 34
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-
 
     defaultConfig {
         applicationId "co.paystack.flutterpaystack"
